@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Studio AGNES</title>
+</head>
+<body>
+
+
+    <div class="container">
+
+        <div class="top-bar">
+            <div class="header">STUDIO AGNES</div>
+
+            <div class="menu">
+                <ul class="menu-list hide" id="menuView">
+                    <li><a href="#uslugi">USŁUGI</a></li>
+                    <li><a href="#salon">SALON</a></li>
+                    <li><a href="#stylizacje">STYLIZACJE</a></li>
+                    <li><a href="#cennik">CENNIK</a></li>
+                    <li><a href="#kontakt">KONTAKT</a></li>
+                </ul>
+            </div>
+
+
+            <div class="hamburger">
+                <div class="barF"></div>
+                <div class="barS bar-hide"></div>
+                <div class="barT"></div>
+            </div>
+
+        </div>
+
+        <div class="content">
+            <div class="main-text">
+                <h1>Eksluzywny salon fryzjerski</h1>
+                <h3>Zadzwoń i umów się na wizytę!</h3>
+                <h2>by Agnieszka Dzięcioł</h2>
+            </div>
+        </div>
+        
+        <img src="img/up.png" title="up-btn" id="up-btn" onclick="goTop();" width="45px" height="45px">
+
+
+        <div class="services" id="uslugi">
+            <div class="services-container">
+                <div class="services-box">Męskie strzyżenie</div>
+                <div class="services-box">Damskie strzyżenie</div>
+                <div class="services-box">Czesanie i stylizacje</div>
+                <div class="services-box">Farbowanie</div>    
+            </div>
+            
+        </div>
+
+        <div class="services-information">
+            <div class="left-info">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime labore in sunt quos temporibus, 
+                    eum consequuntur fuga. Unde nulla, dolore mollitia excepturi facere iusto odio dolorum consequuntur quam quo ipsa.
+                    </p>
+            </div>
+            <div class="right-info">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque inventore quidem, minima harum placeat
+                     mollitia deserunt delectus ipsam labore ad quis nam earum dolore in sit! Similique non doloremque quae.
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque inventore quidem, minima harum placeat
+                     mollitia deserunt delectus ipsam labore ad quis nam earum dolore in sit! Similique non doloremque quae.
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque inventore quidem, minima harum placeat
+                     mollitia deserunt delectus ipsam labore ad quis nam earum dolore in sit! Similique non doloremque quae.</p>
+            </div>
+        </div>
+
+        <div class="salon" id="salon">
+            <div class="welcome-header">Nie możemy się doczekać, umów się już dziś!</div>
+        </div>
+
+        <div class="portfolio" id="stylizacje">
+            <div class="splide" id="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">				
+                            <img src="https://via.placeholder.com/300.png/09f/fff">   
+                        </li>
+                        <li class="splide__slide">                                                     
+                            <img src="https://via.placeholder.com/300.png/09f/fff">
+                        </li>                       
+                        <li class="splide__slide"> 
+                            <img src="https://via.placeholder.com/300.png/09f/fff">
+                        </li> 
+                        <li class="splide__slide">				
+                            <img src="https://via.placeholder.com/300.png/09f/fff">   
+                        </li>
+                        <li class="splide__slide">                                                     
+                            <img src="https://via.placeholder.com/300.png/09f/fff">
+                        </li>                       
+                        <li class="splide__slide"> 
+                            <img src="https://via.placeholder.com/300.png/09f/fff">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="price" id="cennik">
+                <h1>CENNIK</h1>
+            <div class="price-table">
+                <div class="left-services-container">
+                    <p>Women's Cut and Style<p>
+                        <p>Men's Cut</p>
+                            <p>Children's Cut</p>
+                                <p>Blowout</p>
+                                    <p>1-Step Color</p>
+                                        <p>2-Step Color</p>
+                                            <p>Cut & 1-Step Color</p>
+                                                <p>Cut & 2-Step Color</p>
+                                                    <p>Partial Foil</p>
+                                                        <p> Cut & Partial Foil</p>
+                                                            <p>Cut & Full Foil</p>
+                                                                <p>Ombre Color</p>
+                                                                    <p>Balayage Color</p>
+                                                                        <p>Special Occassion Styling</p>
+                </div>
+                <div class="right-price-container">
+                    <p>40 zł</p>
+                        <p>40 zł</p>
+                            <p>40 zł</p>
+                                <p>40 zł</p>
+                                    <p>40 zł</p>
+                                        <p>40 zł</p>
+                                            <p>40 zł</p>
+                                                <p>40 zł</p>
+                                                    <p>40 zł</p>
+                                                        <p>40 zł</p>
+                                                            <p>40 zł</p>
+                                                                <p>40 zł</p>
+                                                                    <p>40 zł</p>
+                                                                        <p>40 zł</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="contact" id="kontakt">
+            <div class="contact-box">
+                <h1>555-666-777</h1>
+                <h2>Nowy Dwór Gdański</h2>
+                <h2>ul. Szczęśliwa 55</h2>
+            </div>
+            <div class="social-media-icon">
+                <a href="#"><img src="img/facebook.png"></a>
+                <a href="#"><img src="img/instagram.png"></a>
+                <a href="#"><img src="img/phone-call.png"></a>
+                <a href="#"><img src="img/gmail.png"></a>
+            </div>
+            <div class="footer">
+                <h5>Wykonał Michał Kropidłowski - mkropidlowsky@gmail.com</h5>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <script src="script/app.js"></script>
+    <script src="script/slide.js"></script>
+    <script src="script/menu.js"></script>
+</body>
+</html>
