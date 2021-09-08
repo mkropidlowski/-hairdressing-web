@@ -27,6 +27,7 @@ if(menuList.style.display === "block")
 
 });
 
+if(document.body.offsetWidth <= 700){
 
 window.onscroll = function () { hideMenuWhenScroll()};
 
@@ -44,4 +45,7 @@ if(document.body.scrollTop > 1 || document.documentElement.scrollTop > 1)
 }  else {
   console.log("XD")
 }
+}
+
+
 }
